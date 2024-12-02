@@ -1,5 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-* {
+*
+ {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,34 +10,46 @@
 
 .img {
     width:50px;
-   
 }
 
 .lista {
-justify-content: space-around;
+
+    justify-content: space-around;
+    gap: 70px;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
     align-items: center;
-    text-align: center;
-    
 }
 
 a {
-
     text-decoration: none;
     list-style: none;
     color: #FFDE59;
     font-family: poppins;
     transition: 0.3s ease;
 
-    
-
 } 
 body{
     background-color: #4092FF;
+    flex-wrap: wrap;
+}
+.caixa-pai1{
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
-    
+.caixa1{
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img{
+    margin-right: 27rem;
+}
 
 span{
     color: #FFDE59;
@@ -53,7 +67,6 @@ span{
 .caixa-pai1{
    background-color: black;
    padding: 20px;
- 
    
 }
 
@@ -63,11 +76,6 @@ span{
     margin: 25px;
     color: white;
 }
-
-
-    
-
-
 
 
 .button{
@@ -104,21 +112,42 @@ a:hover{
 }
 
 .caixa-footer{
-    display:flex;
-    background-color: black;
-}
-
-.itens{
-    display: flex;
-   
-}
-
-.caixadetexto{
+    background-color: black; 
     padding: 20px;
 }
+
+
+    
+.caixadetexto{
+    padding: 5px;
+}
 .img4{
-    width: 750px;
+    width: 40px;
 }
 .texto{
     font-family: poppins;
+    color: white;
 }
+
+.itens1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    display: flex;
+   align-items: center;
+   margin-left: 750px;
+}
+.logos{
+    display: flex;
+   
+   gap: 20px;
+}
+.imagem{
+    height: 50px;
+}
+
